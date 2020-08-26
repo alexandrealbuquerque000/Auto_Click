@@ -112,7 +112,7 @@ def run():
         while True:
             for loop2 in range(numloops):
                 for loop3 in listpos:
-                    pyautogui.click(loop3)
+                    pyautogui.doubleClick(loop3)
                     time.sleep(tmpclicks)
                 if workarea==1:
                     pyautogui.hotkey('win', 'd')
